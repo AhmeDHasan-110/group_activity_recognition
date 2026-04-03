@@ -1,0 +1,43 @@
+type: single-stage
+device: cuda
+
+extraction_process:
+  data_cls: VolleyballTemporalDataset
+  imgs_per_clip: 9
+  group_level: false
+  player_label: false
+  enforce_sorting: false
+
+  batch_size: 8
+  pool: true
+  save_dir_name: b5_embds
+
+model:
+  input_size: 2048
+  hidden_state_size: 768
+  num_layers: 1
+  bidirectional: true
+
+  linear_layer_size: 512
+  num_classes: 8
+
+training:
+  epochs: 25
+  train_batch_size: 64
+  val_batch_size: 256
+  lr: !!float 7e-5
+  optimizer: AdamW
+  weight_decay: 0.005
+
+  scheduler: 
+    type: ReduceLROnPlateau
+    factor: 0.1
+    patience: 3
+    threshold: !!float 1e-3
+    min_lr: !!float 1e-7
+
+description: >
+  In this baseline, a ResNet-50 model(the one saved from baseline3) 
+  is applied to each player's tracklet to extract person-level features. 
+  These features are then pooled over all persons for each frame and 
+  then fed to an LSTM to recognize group activities.

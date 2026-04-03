@@ -1,0 +1,20 @@
+Evaluation results on the test set for baseline: baseline7
+
+Accuracy: 81.45%
+Loss: 0.7233
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  l_winpoint     0.6306    0.6863    0.6573       102
+  r_winpoint     0.6081    0.5172    0.5590        87
+     l_spike     0.8994    0.8994    0.8994       179
+     r_spike     0.9030    0.8613    0.8817       173
+      l_pass     0.7910    0.8540    0.8213       226
+      r_pass     0.7962    0.8000    0.7981       210
+       l_set     0.8663    0.8869    0.8765       168
+       r_set     0.8508    0.8021    0.8257       192
+
+    accuracy                         0.8145      1337
+   macro avg     0.7932    0.7884    0.7899      1337
+weighted avg     0.8147    0.8145    0.8139      1337

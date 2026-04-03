@@ -1,0 +1,20 @@
+Evaluation results on the test set for baseline: Baseline3
+
+Accuracy: 74.11999999999999%
+Loss: 0.803
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  l_winpoint     0.6040    0.5980    0.6010       102
+  r_winpoint     0.5217    0.5517    0.5363        87
+     l_spike     0.9277    0.8603    0.8928       179
+     r_spike     0.8506    0.8555    0.8530       173
+      l_pass     0.6706    0.7478    0.7071       226
+      r_pass     0.6557    0.6619    0.6588       210
+       l_set     0.7941    0.8036    0.7988       168
+       r_set     0.8059    0.7135    0.7569       192
+
+    accuracy                         0.7412      1337
+   macro avg     0.7288    0.7240    0.7256      1337
+weighted avg     0.7461    0.7412    0.7427      1337

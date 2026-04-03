@@ -1,0 +1,207 @@
+2026-03-12 13:34:28,004 - [INFO] - Training Logs for Baseline5
+
+2026-03-12 13:34:28,004 - [INFO] - Device used: cuda
+2026-03-12 13:34:28,146 - [INFO] - Criterion used: CrossEntropyLoss()
+2026-03-12 13:34:28,147 - [INFO] - Train data size = 2152 ; Validation data size = 1341
+2026-03-12 13:34:28,149 - [INFO] - Epoch (1 / 25) ::
+2026-03-12 13:34:28,149 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:29,137 - [INFO] - Batch (17 / 34): Average batch loss = 2.0340  |  running batch accuracy = 14.52%
+2026-03-12 13:34:29,373 - [INFO] - Batch (34 / 34): Average batch loss = 2.0319  |  running batch accuracy = 16.96%
+2026-03-12 13:34:29,880 - [INFO] - End of epoch 1: train loss: 2.0551  -  train accuracy: 16.96%
+2026-03-12 13:34:29,881 - [INFO] - End of epoch 1: val loss: 1.8790  -  val accuracy: 27.29%  -  val macro f1 score: 0.1722
+
+2026-03-12 13:34:29,883 - [INFO] - Epoch (2 / 25) ::
+2026-03-12 13:34:29,883 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:30,309 - [INFO] - Batch (17 / 34): Average batch loss = 1.6781  |  running batch accuracy = 31.80%
+2026-03-12 13:34:30,546 - [INFO] - Batch (34 / 34): Average batch loss = 1.4405  |  running batch accuracy = 34.76%
+2026-03-12 13:34:30,981 - [INFO] - End of epoch 2: train loss: 1.6588  -  train accuracy: 34.76%
+2026-03-12 13:34:30,982 - [INFO] - End of epoch 2: val loss: 1.4400  -  val accuracy: 41.61%  -  val macro f1 score: 0.3370
+
+2026-03-12 13:34:30,983 - [INFO] - Epoch (3 / 25) ::
+2026-03-12 13:34:30,984 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:31,387 - [INFO] - Batch (17 / 34): Average batch loss = 1.2174  |  running batch accuracy = 45.22%
+2026-03-12 13:34:31,624 - [INFO] - Batch (34 / 34): Average batch loss = 1.2544  |  running batch accuracy = 46.98%
+2026-03-12 13:34:32,073 - [INFO] - End of epoch 3: train loss: 1.2420  -  train accuracy: 46.98%
+2026-03-12 13:34:32,075 - [INFO] - End of epoch 3: val loss: 1.2192  -  val accuracy: 48.17%  -  val macro f1 score: 0.4056
+
+2026-03-12 13:34:32,077 - [INFO] - Epoch (4 / 25) ::
+2026-03-12 13:34:32,077 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:32,508 - [INFO] - Batch (17 / 34): Average batch loss = 1.1028  |  running batch accuracy = 46.42%
+2026-03-12 13:34:32,745 - [INFO] - Batch (34 / 34): Average batch loss = 0.8989  |  running batch accuracy = 47.63%
+2026-03-12 13:34:33,166 - [INFO] - End of epoch 4: train loss: 1.0878  -  train accuracy: 47.63%
+2026-03-12 13:34:33,167 - [INFO] - End of epoch 4: val loss: 1.1774  -  val accuracy: 50.48%  -  val macro f1 score: 0.4352
+
+2026-03-12 13:34:33,169 - [INFO] - Epoch (5 / 25) ::
+2026-03-12 13:34:33,170 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:33,590 - [INFO] - Batch (17 / 34): Average batch loss = 1.0249  |  running batch accuracy = 50.83%
+2026-03-12 13:34:33,826 - [INFO] - Batch (34 / 34): Average batch loss = 0.9041  |  running batch accuracy = 50.65%
+2026-03-12 13:34:34,261 - [INFO] - End of epoch 5: train loss: 1.0028  -  train accuracy: 50.65%
+2026-03-12 13:34:34,262 - [INFO] - End of epoch 5: val loss: 1.1076  -  val accuracy: 50.48%  -  val macro f1 score: 0.4306
+
+2026-03-12 13:34:34,263 - [INFO] - Epoch (6 / 25) ::
+2026-03-12 13:34:34,264 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:34,676 - [INFO] - Batch (17 / 34): Average batch loss = 0.9477  |  running batch accuracy = 53.22%
+2026-03-12 13:34:34,914 - [INFO] - Batch (34 / 34): Average batch loss = 1.1857  |  running batch accuracy = 52.83%
+2026-03-12 13:34:35,354 - [INFO] - End of epoch 6: train loss: 0.9492  -  train accuracy: 52.83%
+2026-03-12 13:34:35,355 - [INFO] - End of epoch 6: val loss: 1.1749  -  val accuracy: 50.19%  -  val macro f1 score: 0.4471
+
+2026-03-12 13:34:35,357 - [INFO] - Epoch (7 / 25) ::
+2026-03-12 13:34:35,358 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:35,764 - [INFO] - Batch (17 / 34): Average batch loss = 0.8714  |  running batch accuracy = 53.12%
+2026-03-12 13:34:36,001 - [INFO] - Batch (34 / 34): Average batch loss = 0.7446  |  running batch accuracy = 54.41%
+2026-03-12 13:34:36,435 - [INFO] - End of epoch 7: train loss: 0.9276  -  train accuracy: 54.41%
+2026-03-12 13:34:36,436 - [INFO] - End of epoch 7: val loss: 1.0824  -  val accuracy: 53.32%  -  val macro f1 score: 0.4682
+
+2026-03-12 13:34:36,437 - [INFO] - Epoch (8 / 25) ::
+2026-03-12 13:34:36,438 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:36,852 - [INFO] - Batch (17 / 34): Average batch loss = 0.8056  |  running batch accuracy = 58.00%
+2026-03-12 13:34:37,090 - [INFO] - Batch (34 / 34): Average batch loss = 0.8087  |  running batch accuracy = 58.50%
+2026-03-12 13:34:37,544 - [INFO] - End of epoch 8: train loss: 0.8468  -  train accuracy: 58.50%
+2026-03-12 13:34:37,545 - [INFO] - End of epoch 8: val loss: 1.0280  -  val accuracy: 54.36%  -  val macro f1 score: 0.4705
+
+2026-03-12 13:34:37,547 - [INFO] - Epoch (9 / 25) ::
+2026-03-12 13:34:37,548 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:37,971 - [INFO] - Batch (17 / 34): Average batch loss = 0.8351  |  running batch accuracy = 62.68%
+2026-03-12 13:34:38,211 - [INFO] - Batch (34 / 34): Average batch loss = 0.8624  |  running batch accuracy = 62.96%
+2026-03-12 13:34:38,657 - [INFO] - End of epoch 9: train loss: 0.7883  -  train accuracy: 62.96%
+2026-03-12 13:34:38,658 - [INFO] - End of epoch 9: val loss: 0.9993  -  val accuracy: 57.57%  -  val macro f1 score: 0.5195
+
+2026-03-12 13:34:38,660 - [INFO] - Epoch (10 / 25) ::
+2026-03-12 13:34:38,660 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:39,087 - [INFO] - Batch (17 / 34): Average batch loss = 0.6648  |  running batch accuracy = 67.10%
+2026-03-12 13:34:39,326 - [INFO] - Batch (34 / 34): Average batch loss = 0.5987  |  running batch accuracy = 66.50%
+2026-03-12 13:34:39,761 - [INFO] - End of epoch 10: train loss: 0.7369  -  train accuracy: 66.50%
+2026-03-12 13:34:39,762 - [INFO] - End of epoch 10: val loss: 0.9644  -  val accuracy: 61.37%  -  val macro f1 score: 0.5754
+
+2026-03-12 13:34:39,764 - [INFO] - Epoch (11 / 25) ::
+2026-03-12 13:34:39,764 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:40,182 - [INFO] - Batch (17 / 34): Average batch loss = 0.6404  |  running batch accuracy = 70.40%
+2026-03-12 13:34:40,421 - [INFO] - Batch (34 / 34): Average batch loss = 0.6012  |  running batch accuracy = 69.42%
+2026-03-12 13:34:40,871 - [INFO] - End of epoch 11: train loss: 0.6835  -  train accuracy: 69.42%
+2026-03-12 13:34:40,872 - [INFO] - End of epoch 11: val loss: 1.0380  -  val accuracy: 57.49%  -  val macro f1 score: 0.5194
+
+2026-03-12 13:34:40,873 - [INFO] - Epoch (12 / 25) ::
+2026-03-12 13:34:40,874 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:41,296 - [INFO] - Batch (17 / 34): Average batch loss = 0.5976  |  running batch accuracy = 72.61%
+2026-03-12 13:34:41,534 - [INFO] - Batch (34 / 34): Average batch loss = 0.6157  |  running batch accuracy = 73.98%
+2026-03-12 13:34:41,995 - [INFO] - End of epoch 12: train loss: 0.6080  -  train accuracy: 73.98%
+2026-03-12 13:34:41,996 - [INFO] - End of epoch 12: val loss: 0.9435  -  val accuracy: 61.52%  -  val macro f1 score: 0.5708
+
+2026-03-12 13:34:41,998 - [INFO] - Epoch (13 / 25) ::
+2026-03-12 13:34:41,999 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:42,428 - [INFO] - Batch (17 / 34): Average batch loss = 0.5211  |  running batch accuracy = 77.85%
+2026-03-12 13:34:42,671 - [INFO] - Batch (34 / 34): Average batch loss = 0.4356  |  running batch accuracy = 77.70%
+2026-03-12 13:34:43,100 - [INFO] - End of epoch 13: train loss: 0.5547  -  train accuracy: 77.70%
+2026-03-12 13:34:43,101 - [INFO] - End of epoch 13: val loss: 0.8953  -  val accuracy: 64.88%  -  val macro f1 score: 0.6189
+
+2026-03-12 13:34:43,103 - [INFO] - Epoch (14 / 25) ::
+2026-03-12 13:34:43,103 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:43,509 - [INFO] - Batch (17 / 34): Average batch loss = 0.5108  |  running batch accuracy = 80.33%
+2026-03-12 13:34:43,748 - [INFO] - Batch (34 / 34): Average batch loss = 0.4571  |  running batch accuracy = 80.72%
+2026-03-12 13:34:44,206 - [INFO] - End of epoch 14: train loss: 0.4813  -  train accuracy: 80.72%
+2026-03-12 13:34:44,207 - [INFO] - End of epoch 14: val loss: 0.9018  -  val accuracy: 65.40%  -  val macro f1 score: 0.6071
+
+2026-03-12 13:34:44,209 - [INFO] - Epoch (15 / 25) ::
+2026-03-12 13:34:44,210 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:44,625 - [INFO] - Batch (17 / 34): Average batch loss = 0.3931  |  running batch accuracy = 81.34%
+2026-03-12 13:34:44,862 - [INFO] - Batch (34 / 34): Average batch loss = 0.3296  |  running batch accuracy = 83.22%
+2026-03-12 13:34:45,281 - [INFO] - End of epoch 15: train loss: 0.4356  -  train accuracy: 83.22%
+2026-03-12 13:34:45,282 - [INFO] - End of epoch 15: val loss: 0.8512  -  val accuracy: 67.64%  -  val macro f1 score: 0.6528
+
+2026-03-12 13:34:45,283 - [INFO] - Epoch (16 / 25) ::
+2026-03-12 13:34:45,284 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:45,690 - [INFO] - Batch (17 / 34): Average batch loss = 0.3566  |  running batch accuracy = 87.68%
+2026-03-12 13:34:45,928 - [INFO] - Batch (34 / 34): Average batch loss = 0.4272  |  running batch accuracy = 87.45%
+2026-03-12 13:34:46,381 - [INFO] - End of epoch 16: train loss: 0.3620  -  train accuracy: 87.45%
+2026-03-12 13:34:46,382 - [INFO] - End of epoch 16: val loss: 0.8804  -  val accuracy: 66.52%  -  val macro f1 score: 0.6214
+
+2026-03-12 13:34:46,383 - [INFO] - Epoch (17 / 25) ::
+2026-03-12 13:34:46,384 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:46,785 - [INFO] - Batch (17 / 34): Average batch loss = 0.3699  |  running batch accuracy = 87.41%
+2026-03-12 13:34:47,021 - [INFO] - Batch (34 / 34): Average batch loss = 0.2857  |  running batch accuracy = 85.36%
+2026-03-12 13:34:47,446 - [INFO] - End of epoch 17: train loss: 0.3784  -  train accuracy: 85.36%
+2026-03-12 13:34:47,447 - [INFO] - End of epoch 17: val loss: 0.9635  -  val accuracy: 63.91%  -  val macro f1 score: 0.6077
+
+2026-03-12 13:34:47,448 - [INFO] - Epoch (18 / 25) ::
+2026-03-12 13:34:47,449 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:47,858 - [INFO] - Batch (17 / 34): Average batch loss = 0.5412  |  running batch accuracy = 83.55%
+2026-03-12 13:34:48,095 - [INFO] - Batch (34 / 34): Average batch loss = 0.3792  |  running batch accuracy = 84.06%
+2026-03-12 13:34:48,533 - [INFO] - End of epoch 18: train loss: 0.4012  -  train accuracy: 84.06%
+2026-03-12 13:34:48,534 - [INFO] - End of epoch 18: val loss: 1.0936  -  val accuracy: 59.88%  -  val macro f1 score: 0.5590
+
+2026-03-12 13:34:48,536 - [INFO] - Epoch (19 / 25) ::
+2026-03-12 13:34:48,537 - [INFO] - Current lr = 7e-05
+
+2026-03-12 13:34:48,955 - [INFO] - Batch (17 / 34): Average batch loss = 0.3156  |  running batch accuracy = 87.50%
+2026-03-12 13:34:49,192 - [INFO] - Batch (34 / 34): Average batch loss = 0.5187  |  running batch accuracy = 87.22%
+2026-03-12 13:34:49,629 - [INFO] - End of epoch 19: train loss: 0.3495  -  train accuracy: 87.22%
+2026-03-12 13:34:49,630 - [INFO] - End of epoch 19: val loss: 1.0127  -  val accuracy: 63.39%  -  val macro f1 score: 0.5892
+
+2026-03-12 13:34:49,632 - [INFO] - Epoch (20 / 25) ::
+2026-03-12 13:34:49,632 - [INFO] - Current lr = 7e-06
+
+2026-03-12 13:34:50,037 - [INFO] - Batch (17 / 34): Average batch loss = 0.2817  |  running batch accuracy = 90.07%
+2026-03-12 13:34:50,275 - [INFO] - Batch (34 / 34): Average batch loss = 0.2175  |  running batch accuracy = 91.40%
+2026-03-12 13:34:50,709 - [INFO] - End of epoch 20: train loss: 0.2541  -  train accuracy: 91.40%
+2026-03-12 13:34:50,710 - [INFO] - End of epoch 20: val loss: 0.8308  -  val accuracy: 70.62%  -  val macro f1 score: 0.6794
+
+2026-03-12 13:34:50,711 - [INFO] - Epoch (21 / 25) ::
+2026-03-12 13:34:50,712 - [INFO] - Current lr = 7e-06
+
+2026-03-12 13:34:51,113 - [INFO] - Batch (17 / 34): Average batch loss = 0.2365  |  running batch accuracy = 92.10%
+2026-03-12 13:34:51,349 - [INFO] - Batch (34 / 34): Average batch loss = 0.2536  |  running batch accuracy = 92.57%
+2026-03-12 13:34:51,775 - [INFO] - End of epoch 21: train loss: 0.2342  -  train accuracy: 92.57%
+2026-03-12 13:34:51,776 - [INFO] - End of epoch 21: val loss: 0.8631  -  val accuracy: 69.57%  -  val macro f1 score: 0.6666
+
+2026-03-12 13:34:51,778 - [INFO] - Epoch (22 / 25) ::
+2026-03-12 13:34:51,778 - [INFO] - Current lr = 7e-06
+
+2026-03-12 13:34:52,189 - [INFO] - Batch (17 / 34): Average batch loss = 0.2258  |  running batch accuracy = 93.11%
+2026-03-12 13:34:52,429 - [INFO] - Batch (34 / 34): Average batch loss = 0.3505  |  running batch accuracy = 92.43%
+2026-03-12 13:34:52,878 - [INFO] - End of epoch 22: train loss: 0.2258  -  train accuracy: 92.43%
+2026-03-12 13:34:52,879 - [INFO] - End of epoch 22: val loss: 0.8297  -  val accuracy: 70.84%  -  val macro f1 score: 0.6805
+
+2026-03-12 13:34:52,881 - [INFO] - Epoch (23 / 25) ::
+2026-03-12 13:34:52,881 - [INFO] - Current lr = 7e-06
+
+2026-03-12 13:34:53,308 - [INFO] - Batch (17 / 34): Average batch loss = 0.2014  |  running batch accuracy = 92.46%
+2026-03-12 13:34:53,545 - [INFO] - Batch (34 / 34): Average batch loss = 0.1597  |  running batch accuracy = 93.08%
+2026-03-12 13:34:53,978 - [INFO] - End of epoch 23: train loss: 0.2190  -  train accuracy: 93.08%
+2026-03-12 13:34:53,979 - [INFO] - End of epoch 23: val loss: 0.8593  -  val accuracy: 69.87%  -  val macro f1 score: 0.6703
+
+2026-03-12 13:34:53,980 - [INFO] - Epoch (24 / 25) ::
+2026-03-12 13:34:53,981 - [INFO] - Current lr = 7e-06
+
+2026-03-12 13:34:54,391 - [INFO] - Batch (17 / 34): Average batch loss = 0.3575  |  running batch accuracy = 93.57%
+2026-03-12 13:34:54,628 - [INFO] - Batch (34 / 34): Average batch loss = 0.2206  |  running batch accuracy = 93.68%
+2026-03-12 13:34:55,063 - [INFO] - End of epoch 24: train loss: 0.2133  -  train accuracy: 93.68%
+2026-03-12 13:34:55,064 - [INFO] - End of epoch 24: val loss: 0.8396  -  val accuracy: 70.84%  -  val macro f1 score: 0.6804
+
+2026-03-12 13:34:55,066 - [INFO] - Epoch (25 / 25) ::
+2026-03-12 13:34:55,067 - [INFO] - Current lr = 7e-06
+
+2026-03-12 13:34:55,468 - [INFO] - Batch (17 / 34): Average batch loss = 0.1909  |  running batch accuracy = 93.84%
+2026-03-12 13:34:55,705 - [INFO] - Batch (34 / 34): Average batch loss = 0.2921  |  running batch accuracy = 93.12%
+2026-03-12 13:34:56,138 - [INFO] - End of epoch 25: train loss: 0.2123  -  train accuracy: 93.12%
+2026-03-12 13:34:56,139 - [INFO] - End of epoch 25: val loss: 0.8339  -  val accuracy: 70.99%  -  val macro f1 score: 0.6837
+
+2026-03-12 13:34:56,424 - [INFO] - Last model checkpoint saved
+2026-03-12 13:34:56,782 - [INFO] - Training curves saved successfully.

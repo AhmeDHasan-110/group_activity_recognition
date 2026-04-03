@@ -1,0 +1,43 @@
+type: single-stage
+device: "cuda"
+
+extraction_process:
+  data_cls: VolleyballTemporalDataset
+  imgs_per_clip: 9
+  group_level: true
+  player_label: false
+  enforce_sorting: false
+
+  batch_size: 100
+  pool: false
+  save_dir_name: b4_embds
+
+model:
+  input_size: 2048
+  hidden_state_size: 256
+  num_layers: 1
+  bidirectional: true
+
+  linear_layer_size: 64
+  num_classes: 8
+
+training:
+  epochs: 8
+  train_batch_size: 128
+  val_batch_size: 256
+  lr: !!float 1e-5
+  optimizer: AdamW
+  weight_decay: 0.001
+
+  scheduler: 
+    type: ReduceLROnPlateau
+    factor: 0.1
+    patience: 2
+    threshold: !!float 1e-3
+    min_lr: !!float 1e-7
+
+description: >
+  In this baseline, a ResNet-50 model(the one saved from baseline1) 
+  is applied to each frame to extract image-level features. 
+  These features are then fed into an LSTM network to model 
+  temporal information and recognize group activities.

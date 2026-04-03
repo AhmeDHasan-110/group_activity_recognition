@@ -1,0 +1,81 @@
+type: multi-stage
+device: cuda
+
+stage1:
+  model:
+      lstm_specs:
+        input_size: 2048
+        hidden_state_size: 1024
+        num_layers: 1
+        bidirectional: true
+
+      linear_head:
+        hidden_layer_sizes: [1024, 384]
+        p_dropout: [0.1, 0]
+        num_classes: 9
+
+  data:
+    data_cls: VolleyballTemporalDataset
+    imgs_per_clip: 7
+    group_level: false
+    player_label: true
+    enforce_sorting: false
+    resize_dims: [232, 232]
+
+  training:
+    epochs: &st1_train_epochs 10
+    train_batch_size: 1
+    val_batch_size: 8
+    lr: !!float 1e-4
+    optimizer: AdamW
+    weight_decay: 0.001
+
+    scheduler:
+      type: ReduceLROnPlateau
+      factor: 0.1
+      patience: 3
+      threshold: !!float 1e-3
+      min_lr: !!float 5e-6
+
+stage2:
+  extraction_process:
+    save_dir_name: "b8_embds"
+    split_groups: &to_sort true
+    batch_size: 8
+
+    data_cls: VolleyballTemporalDataset
+    imgs_per_clip: 9
+    group_level: false
+    player_label: true
+    enforce_sorting: *to_sort
+  
+  model:
+      lstm_specs:
+        hidden_state_size: 4096
+        num_layers: 1
+        bidirectional: true
+
+      linear_head:
+        hidden_layer_sizes: [512, 128]
+        p_dropout: [0.1, 0.0]
+        num_classes: 8
+
+  training:
+    epochs: &st2_train_epochs 15
+    train_batch_size: 64
+    val_batch_size: 256
+    lr: !!float 1e-4
+    optimizer: AdamW
+    weight_decay: 0.001
+
+    scheduler:
+      type: CosineAnnealingLR
+      T_max: *st2_train_epochs
+      eta_min: !!float 1e-5
+
+description: >
+  The final two-stage hierarchical model for group activity recognition. Given $K$ player 
+  tracklets, each is processed through a CNN and a person-level LSTM to extract individual 
+  action representations. These temporal features are then pooled across all individuals in the scene. 
+  Finally, the pooled output is fed into a second LSTM network to identify the collective team activity.
+

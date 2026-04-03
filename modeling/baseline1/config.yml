@@ -1,0 +1,30 @@
+type: single-stage
+device: "cuda"
+
+data: 
+  data_cls: VolleyballGroupDataset
+  imgs_per_clip: 9
+  group_level: true
+  resize_dims: [256]
+
+model:
+  backbone: resnet50
+  num_classes: 8
+
+training:
+  epochs: 10
+  train_batch_size: 128
+  val_batch_size: 256
+  lr: !!float 1e-3
+  optimizer: AdamW
+  weight_decay: 0.01
+
+  scheduler: 
+    type: ReduceLROnPlateau
+    factor: 0.1
+    patience: 4
+    threshold: !!float 1e-3
+    min_lr: !!float 1e-6
+
+
+description: A finetuned resnet50 classifier to classify a group activity given a frame.
