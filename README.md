@@ -5,11 +5,13 @@
 [![Paper](https://img.shields.io/badge/Paper-CVPR%202016-blue.svg)](https://arxiv.org/abs/1607.02643)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
-> A 2-stage deep temporal model for recognizing group activities based on individual person dynamics.
+> **A 2-stage deep temporal model for recognizing group activities based on individual person dynamics.**
 
 </div>
 
-<img src="imgs/fig1.png" alt="Description" width="650" style="display: block; margin: 0 auto;">   
+<div align="center">
+<img src="imgs/fig1.png" alt="Description" width="550" style="display: block; margin: 0 auto;">   
+</div>
 
 ## 📌 Overview
 
