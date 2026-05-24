@@ -56,7 +56,7 @@ Follow these steps carefully to set up the data and start training the baselines
 Clone the repository and install the project requirements:
 
 ```bash
-git clone https://github.com/yourusername/group_activity_recognition.git
+git clone https://github.com/AhmeDHasan-110/group_activity_recognition.git
 cd group_activity_recognition
 pip install -r requirements.txt
 ```
