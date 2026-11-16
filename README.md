@@ -108,7 +108,7 @@ The table below presents a comparison between the accuracy of my implementation 
 
 > **Note:** `baseline 2` and `baseline 6` were skipped
 
-My PyTorch implementation shows remarkable improvement in accuracy, achieving 91% compared to the original paper's 81.9%.  
+My PyTorch implementation shows remarkable improvement in accuracy, achieving 90.88% compared to the original paper's 81.9%.  
 The table also shows that baseline 8 significantly outperforms
 the baseline models.  
 This means that paying attention to fine-grained temporal dynamics(the player level LSTM) before modeling the higher level temporal features gave a huge advantage.
